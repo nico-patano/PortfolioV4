@@ -17,6 +17,11 @@ function Resume() {
         src={process.env.PUBLIC_URL + "/images/resume.png"}
         alt="resume"
       ></img>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
     </div>
   );
 }

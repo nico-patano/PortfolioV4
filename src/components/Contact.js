@@ -55,6 +55,11 @@ function Contact() {
         </button>
       </form>
       <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
     </div>
   );
 }
