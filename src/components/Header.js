@@ -2,7 +2,7 @@ import React from "react";
 
 function Header({ currentPage, handlePageChange }) {
   return (
-    <header className="navbar-expand navbar-dark bg-dark-gray py-3 px-0 px-sm-1 px-md-3 mx-0 border-bottom border-yellow-green border-2">
+    <header className="navbar-expand navbar-dark bg-dark-gray py-3 px-0 px-sm-1 px-md-3 mx-0 ">
       <div className="container mw-100">
         <div className="row m-0">
           <div className="col-10 col-sm-6 p-0 d-flex justify-content-center justify-content-sm-start">
@@ -17,8 +17,8 @@ function Header({ currentPage, handlePageChange }) {
                 onClick={() => handlePageChange("About")}
                 className={
                   currentPage === "About"
-                    ? "nav-item nav-link active border-end border-yellow-green py-0 my-auto"
-                    : "nav-item nav-link border-end border-yellow-green py-0 my-auto"
+                    ? "nav-item nav-link active border border-yellow-green py-0 my-auto"
+                    : "nav-item nav-link border-yellow-green py-0 my-auto"
                 }
               >
                 About
@@ -28,8 +28,8 @@ function Header({ currentPage, handlePageChange }) {
                 onClick={() => handlePageChange("Project")}
                 className={
                   currentPage === "Project"
-                    ? "nav-item nav-link active border-end border-yellow-green py-0 my-auto"
-                    : "nav-item nav-link border-end border-yellow-green py-0 my-auto"
+                    ? "nav-item nav-link active border border-yellow-green py-0 my-auto"
+                    : "nav-item nav-link border-yellow-green py-0 my-auto"
                 }
               >
                 Projects
@@ -39,8 +39,8 @@ function Header({ currentPage, handlePageChange }) {
                 onClick={() => handlePageChange("Resume")}
                 className={
                   currentPage === "Resume"
-                    ? "nav-item nav-link active border-end border-yellow-green py-0 my-auto"
-                    : "nav-item nav-link border-end border-yellow-green py-0 my-auto"
+                    ? "nav-item nav-link active border border-yellow-green py-0 my-auto"
+                    : "nav-item nav-link border-yellow-green py-0 my-auto"
                 }
               >
                 Resume
@@ -50,8 +50,8 @@ function Header({ currentPage, handlePageChange }) {
                 onClick={() => handlePageChange("Contact")}
                 className={
                   currentPage === "Contact"
-                    ? "nav-item nav-link active"
-                    : "nav-item nav-link"
+                    ? "nav-item nav-link active border border-yellow-green py-0 my-auto"
+                    : "nav-item nav-link border-yellow-green py-0 my-auto"
                 }
               >
                 Contact

@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className="footer fixed-bottom mt-auto py-2 bg-dark-gray border-top border-yellow-green border-2">
+    <footer className="footer fixed-bottom mt-auto py-2 bg-dark-gray ">
       <a
         className="d-flex justify-content-center text-yellow-green"
         href="https://github.com/nico-patano"

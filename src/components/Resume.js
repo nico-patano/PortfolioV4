@@ -20,6 +20,27 @@ function Resume() {
       <br></br>
       <br></br>
       <br></br>
+      <h3 className="text-green border-bottom border-2 py-2 mb-3" id="resume">
+        List of the Developer’s Proficiencies
+      </h3>
+
+      <ul class="list-group list-group-flush m-2">
+        <li class="list-group-item">HTML</li>
+        <li class="list-group-item">CSS</li>
+        <li class="list-group-item">JavaScript</li>
+        <li class="list-group-item">NodeJS</li>
+        <li class="list-group-item">Express</li>
+        <li class="list-group-item">SQL</li>
+        <li class="list-group-item">PWA</li>
+        <li class="list-group-item">React</li>
+        <li class="list-group-item">Express</li>
+      </ul>
+
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
       <br></br>
       <br></br>
     </div>
