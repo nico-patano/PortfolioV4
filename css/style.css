@@ -1,0 +1,123 @@
+:root {
+  --dark-gray: #222629f6;
+  --medium-gray: #1d1d1ddc;
+  --light-gray: #6c747a65;
+  --white: rgba(224, 224, 224, 0.972);
+  --green: #338b55;
+  --yellow-green: #32c27f;
+  --site-border-radius: 0px 30px 0px 0px;
+  --site-border-radius2: 0px 30px 0px 30px;
+  --site-border: solid 7px #32c2b6;
+}
+
+* {
+  font-size: 1.2rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--medium-gray);
+  background-repeat: no-repeat;
+  font-family: "Abel", sans-serif;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+main section {
+  width: 100%;
+}
+
+.bg-dark-gray {
+  background-color: var(--dark-gray);
+}
+
+.bg-yellow-green {
+  background-color: var(--yellow-green);
+}
+
+.border-yellow-green {
+  border-color: var(--yellow-green) !important;
+}
+
+.icon-size {
+  font-size: rem;
+}
+.text-dark-gray {
+  color: var(--dark-gray);
+}
+
+.text-green {
+  color: var(--green);
+}
+
+.text-yellow-green {
+  color: var(--yellow-green);
+}
+
+.card a {
+  background-color: var(--dark-gray);
+  transition: 0.3s;
+}
+
+.card a:hover {
+  background-color: var(--yellow-green);
+}
+
+.nav-link {
+  color: var(--yellow-green) !important;
+}
+
+.active {
+  color: var(--white) !important;
+}
+
+.nav-link:hover {
+  color: var(--white) !important;
+}
+
+#cuteRobot {
+  width: 100%;
+}
+
+.site-link:hover {
+  background-color: var(--yellow-green);
+  transition: 0.3s;
+}
+
+@media screen and (min-width: 576px) {
+  #cuteRobot {
+    max-width: 290px;
+    max-height: 300px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  main section {
+    width: 735px;
+  }
+}
+
+.border-3 {
+  border-width: 3px !important;
+}
+
+.border-2 {
+  border-width: 2px !important;
+}
